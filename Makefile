@@ -15,8 +15,8 @@ all:
 #%.o: src/%.cpp
 #        $(CXX) -std=$(STD) -c -o $@ $<
 
-#install: cpp-math
-#        cp -v $(EXE) /usr/bin/
+install: all
+	cp -v $(EXE) /usr/bin/
 
 #uninstall:
 #$(RM) /usr/bin/$(EXE)
