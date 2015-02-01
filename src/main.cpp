@@ -1,9 +1,9 @@
 #include <iostream>
 #include <cmath>
-#include "include.h"
+void degree_to_radian();
+void radian_to_degree();
 int main() {
     using namespace std;
-    const double pi = 4.0*atan(1.0);
     string program;
     cout << "Select a program: ";
     cin >> program;

@@ -1,3 +1,5 @@
+#include <iostream>
+#include <cmath>
 void degree_to_radian() {
     const double pi = 4.0*atan(1.0);
     using namespace std;
