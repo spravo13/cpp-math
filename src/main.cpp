@@ -3,8 +3,13 @@
 void degree_to_radian();
 void radian_to_degree();
 void programs() {
-
-
+	using namespace std;
+	cout <<"Program name\t\tCommand\n\n";
+	cout <<"degree to radian\td2r\n";
+	cout <<"radian to degree\tr2d\n";
+	
+	
+	cout <<"\n";
 }
 
 
@@ -14,7 +19,10 @@ int main() {
 	while(program != "q"){
 		cout << "Select a program: ";
 		cin >> program;
-		if(program == "q"){
+		if(program == "p"){
+			programs();
+		}
+		else if(program == "q"){
 			cout << "quitting...\n";
 		}
 		else if(program == "d2r"){
