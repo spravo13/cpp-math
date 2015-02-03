@@ -4,6 +4,7 @@ void degree_to_radian();
 void radian_to_degree();
 void circle_area();
 void trapezoid_area();
+void parallelogram_area();
 void programs() {
 	using namespace std;
 	cout <<"Program name\t\tCommand\n\n";
@@ -11,6 +12,7 @@ void programs() {
 	cout <<"radian to degree\tr2d\n";
 	cout <<"circle area\t\tca\n";
 	cout <<"trapezoid area\t\tta\n";
+	cout <<"parallelogram area\tpa\n";
 
 	cout <<"\n";
 }
@@ -39,6 +41,9 @@ int main() {
 		}
 		else if(program == "ta"){
 			trapezoid_area();
+		}
+		else if(program == "pa"){
+			parallelogram_area();
 		}
 		else{
 			cout << "That's not a program, type \"p\" for a list\n";
