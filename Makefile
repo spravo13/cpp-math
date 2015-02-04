@@ -14,3 +14,6 @@ run: all
 
 uninstall:
 	$(RM) /usr/bin/$(EXE)
+
+clean:
+	$(RM) $(EXE)
