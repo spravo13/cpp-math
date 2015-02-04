@@ -3,7 +3,15 @@ A c++ program which solves math problems(mainly geometric)
 
 
 ## Installation
-to Install cpp-math all you need to do is clone this repo and type `sudo make install` inside the direcotry it creates.
+Tested to work on Debian. It should work on any other GNU/Linux distro or unix-like system(Mac, BSD, dead badger, etc.)
+
+To compile type `make`
+
+To compile and copy executable to bin type `sudo make install`
+
+To compile and run executable type `make run`
+
+To remove executable type `make clean`
 
 ## Contributing
 
