@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+//Include function names
 void degree_to_radian();
 void radian_to_degree();
 void circle_area();
@@ -8,6 +9,7 @@ void trapezoid_area();
 void parallelogram_area();
 void triangle_area();
 void cylinder_surface_area();
+//end includes
 void programs() {
 	cout <<"Program name\t\tCommand\n\n";
 	cout <<"degree to radian\td2r\n";
@@ -20,7 +22,6 @@ void programs() {
 
 	cout <<"\n";
 }
-
 
 int main() {
 	string program;	
@@ -58,4 +59,5 @@ int main() {
 			cout << "That's not a program, type \"p\" for a list\n";
 		}
 	}
+	return 0;
 }
