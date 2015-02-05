@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
+using namespace std;
 void triangle_area() {
-    using namespace std;
     float b, h ,a;
     cout << "Base length: ";
     cin >> b;

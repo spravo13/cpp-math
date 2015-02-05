@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
+using namespace std;
 void trapezoid_area() {
-    using namespace std;
     float h, b1, b2, a;
     cout << "Height measurment: ";
     cin >> h;

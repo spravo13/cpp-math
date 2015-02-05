@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cmath>
+using namespace std;
 void cylinder_surface_area() {
     const double pi = 4.0*atan(1.0);
-    using namespace std;
     float r, h, sa;
     cout << "Radius of cylinder: ";
     cin >> r;

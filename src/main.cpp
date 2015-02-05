@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+using namespace std;
 void degree_to_radian();
 void radian_to_degree();
 void circle_area();
@@ -8,7 +9,6 @@ void parallelogram_area();
 void triangle_area();
 void cylinder_surface_area();
 void programs() {
-	using namespace std;
 	cout <<"Program name\t\tCommand\n\n";
 	cout <<"degree to radian\td2r\n";
 	cout <<"radian to degree\tr2d\n";
@@ -23,7 +23,6 @@ void programs() {
 
 
 int main() {
-	using namespace std;
 	string program;	
 	while(program != "q"){
 		cout << "Select a program: ";
