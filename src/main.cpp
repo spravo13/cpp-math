@@ -1,6 +1,8 @@
 #include <cmath>
 #include <iostream>
+
 using namespace std;
+
 //declare functions so they can be called later
 void degree_to_radian();
 void radian_to_degree();
@@ -10,6 +12,7 @@ void parallelogram_area();
 void triangle_area();
 void cylinder_surface_area();
 //end of declaring
+
 void programs() {
 	cout <<"Program name\t\tCommand\n\n";
 	cout <<"degree to radian\td2r\n";

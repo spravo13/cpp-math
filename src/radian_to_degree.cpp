@@ -1,5 +1,6 @@
-#include <iostream>
 #include <cmath>
+#include <iostream>
+
 using namespace std;
 
 void radian_to_degree() {
