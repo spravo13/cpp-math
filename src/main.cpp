@@ -1,5 +1,5 @@
-#include <iostream>
 #include <cmath>
+#include <iostream>
 using namespace std;
 //declare functions so they can be called later
 void degree_to_radian();
@@ -25,37 +25,28 @@ void programs() {
 
 int main() {
 	string program;	
-	while(program != "q"){
+	while (program != "q") {
 		cout << "Select a program: ";
 		cin >> program;
-		if(program == "p"){
+		if (program == "p") {
 			programs();
-		}
-		else if(program == "q"){
+		} else if (program == "q") {
 			cout << "quitting...\n";
-		}
-		else if(program == "d2r"){
+		} else if (program == "d2r") {
 			degree_to_radian();
-		}
-		else if(program == "r2d"){
+		} else if (program == "r2d") {
 			radian_to_degree();
-		}
-		else if(program == "ca"){
+		} else if (program == "ca") {
 			circle_area();
-		}
-		else if(program == "ta"){
+		} else if (program == "ta") {
 			trapezoid_area();
-		}
-		else if(program == "pa"){
+		} else if (program == "pa") {
 			parallelogram_area();
-		}
-		else if(program == "tea"){
+		} else if (program == "tea") {
 			triangle_area();
-		}
-		else if(program == "csa"){
+		} else if (program == "csa") {
 			cylinder_surface_area();
-		}
-		else{
+		} else {
 			cout << "That's not a program, type \"p\" for a list\n";
 		}
 	}
