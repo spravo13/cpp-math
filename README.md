@@ -1,5 +1,6 @@
 # cpp-math
-A c++ program which solves math problems(mainly geometric)
+A c++ program which solves math problems(mainly geometric).
+Programs are based off of the <a href="https://github.com/spravo13/python-math">Python math</a> and <a href="https://github.com/spravo13/java-math">Java math</a> programs I have previously written on contributed to.
 
 
 ## Installation
