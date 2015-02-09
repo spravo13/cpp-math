@@ -16,6 +16,7 @@ void programs() {
 	cout <<"cylinder volume\t\tcv\n";
 	cout <<"sphere surface area\tssa\n";
 	cout <<"sphere volume\t\tsv\n";
+	cout <<"circumference\t\tc\n";
 
 	cout <<"\n";
 }
@@ -49,6 +50,8 @@ int main() {
 			sphere_surface_area();
 		} else if (program == "sv"){
 			sphere_volume();
+		} else if  (program == "c"){
+			circumference();
 		} else {
 			cout << "That's not a program, type \"p\" for a list\n";
 		}
