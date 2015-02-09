@@ -6,13 +6,13 @@ using namespace std;
 void sphere_surface_area() {
 
 	const double pi = 4.0*atan(1.0);
-	float r, v;
+	float r, sa;
 
 	cout << "Radius Length: ";
 	cin >> r;
 
-	v = (4/3) * (pi * (pow(r,3)));
+	sa = 4 * pi * pow(r,2);
 
-	cout << "Volume is: " << v << "\n";
+	cout << "Surface area is: " << sa << "\n";
 
 }
