@@ -11,6 +11,7 @@ void trapezoid_area();
 void parallelogram_area();
 void triangle_area();
 void cylinder_surface_area();
+void cylinder_volume();
 //end of declaring
 
 void programs() {
@@ -22,6 +23,7 @@ void programs() {
 	cout <<"parallelogram area\tpa\n";
 	cout <<"triangle area\t\ttea\n";
 	cout <<"cylinder surface area\tcsa\n";
+	cout <<"cylinder volume\t\tcv\n";
 
 	cout <<"\n";
 }
@@ -49,6 +51,8 @@ int main() {
 			triangle_area();
 		} else if (program == "csa") {
 			cylinder_surface_area();
+		} else if (program == "cv"){
+			cylinder_volume();
 		} else {
 			cout << "That's not a program, type \"p\" for a list\n";
 		}
