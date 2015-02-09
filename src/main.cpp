@@ -17,6 +17,7 @@ void programs() {
 	cout <<"sphere surface area\tssa\n";
 	cout <<"sphere volume\t\tsv\n";
 	cout <<"circumference\t\tc\n";
+	cout <<"arc length\t\tal\n";
 
 	cout <<"\n";
 }
@@ -52,6 +53,8 @@ int main() {
 			sphere_volume();
 		} else if  (program == "c"){
 			circumference();
+		} else if (program == "al"){
+			arc_length();
 		} else {
 			cout << "That's not a program, type \"p\" for a list\n";
 		}
