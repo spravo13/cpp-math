@@ -19,6 +19,7 @@ void programs() {
 	cout <<"circumference\t\tc\n";
 	cout <<"arc length\t\tal\n";
 	cout <<"sector area\t\tsa\n";
+	cout <<"quadratic formula\tqf\n";
 
 	cout <<"\n";
 }
@@ -58,6 +59,8 @@ int main() {
 			arc_length();
 		} else if (program == "sa"){
 			sector_area();
+		} else if (program == "qf"){
+			quadratic_formula();
 		} else {
 			cout << "That's not a program, type \"p\" for a list\n";
 		}
