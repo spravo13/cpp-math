@@ -5,7 +5,6 @@ using namespace std;
 
 void quadratic_formula() {
 
-	const double pi = 4.0*atan(1.0);
 	float a, b, c, d, qf1, qf2;
 	int dis;
 
