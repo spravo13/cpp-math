@@ -12,3 +12,5 @@ void circumference();
 void arc_length();
 void sector_area();
 void quadratic_formula();
+
+extern const double pi = 4.0*atan(1.0);

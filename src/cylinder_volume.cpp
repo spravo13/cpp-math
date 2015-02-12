@@ -1,11 +1,11 @@
 #include <cmath>
 #include <iostream>
+#include "declare.h"
 
 using namespace std;
 
 void cylinder_volume() {
 
-	const double pi = 4.0*atan(1.0);
 	float h, r, v;
 
 	cout << "Height of cylinder: ";
