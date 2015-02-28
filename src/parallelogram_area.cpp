@@ -17,3 +17,4 @@ void parallelogram_area() {
 	cout << "Area is: " << a << "\n";
 
 }
+

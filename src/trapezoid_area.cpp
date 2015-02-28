@@ -19,3 +19,4 @@ void trapezoid_area() {
 	cout << "Area is: " << a << "\n";
 
 }
+

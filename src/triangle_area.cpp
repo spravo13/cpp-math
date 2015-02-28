@@ -17,3 +17,4 @@ void triangle_area() {
 	cout << "Area is: " << a << "\n";
 
 }
+
