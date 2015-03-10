@@ -1,6 +1,5 @@
 #include <cmath>
 #include <iostream>
-#include "declare.h"
 
 using namespace std;
 
@@ -11,7 +10,7 @@ void circumference() {
 	cout << "Diameter Length: ";
 	cin >> d;
 
-	c = pi * d;
+	c = M_PI * d;
 
 	cout << "circumference: " << c << "\n";
 

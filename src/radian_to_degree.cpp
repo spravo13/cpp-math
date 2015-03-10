@@ -1,6 +1,5 @@
 #include <cmath>
 #include <iostream>
-#include "declare.h"
 
 using namespace std;
 
@@ -11,7 +10,7 @@ void radian_to_degree() {
 	cout << "Number of radians: ";
 	cin >> r;
 
-	d = r*(180/pi);
+	d = r*(180/M_PI);
 
 	cout << d << " degrees \n";
 

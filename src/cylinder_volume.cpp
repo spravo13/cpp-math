@@ -1,6 +1,5 @@
 #include <cmath>
 #include <iostream>
-#include "declare.h"
 
 using namespace std;
 
@@ -13,7 +12,7 @@ void cylinder_volume() {
 	cout << "Radius of cylinder: ";
 	cin >> r;
 
-	v = pi * r * r * h;
+	v = M_PI * r * r * h;
 
 	cout << "Volume is: " << v << "\n";
 

@@ -1,6 +1,5 @@
 #include <cmath>
 #include <iostream>
-#include "declare.h"
 
 using namespace std;
 
@@ -11,7 +10,7 @@ void circle_area() {
 	cout << "Radius Length: ";
 	cin >> r;
 
-	a = r*r*pi;
+	a = r*r*M_PI;
 
 	cout << "Area is: " << a << "\n";
 

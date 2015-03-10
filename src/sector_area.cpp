@@ -1,6 +1,5 @@
 #include <cmath>
 #include <iostream>
-#include "declare.h"
 
 using namespace std;
 
@@ -16,7 +15,7 @@ void sector_area() {
 	if(a>360 or a<0){
 		cout << "Angle is not possible\n";
 	} else {
-		sa = (pi*pow(r,2)) * (a/360);
+		sa = (M_PI*pow(r,2)) * (a/360);
 
 		cout << "Sector area: " << sa << "\n";
 	}
