@@ -22,8 +22,8 @@ void quadratic_formula() {
 	} else {	
 		d = (pow(b,2)) - (4*a*c);
 		d = pow(d,.5);
-		qf1 = (-b + d) / 2 * a;
-		qf1 = (-b - d) / 2 * a;
+		qf1 = (-b + d) / (2 * a);
+		qf2 = (-b - d) / (2 * a);
 
 		if(dis == 0) {
 			cout << "Solution: (" << qf1 << ",0)\n";
