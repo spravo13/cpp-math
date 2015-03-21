@@ -5,6 +5,7 @@
 using namespace std;
 
 void programs() {
+
 	cout <<"Program name\t\tCommand\n\n";
 	cout <<"degree to radian\td2r\n";
 	cout <<"radian to degree\tr2d\n";
@@ -22,9 +23,11 @@ void programs() {
 	cout <<"quadratic formula\tqf\n";
 
 	cout <<"\n";
+
 }
 
 int main() {
+
 	string program;	
 	while (program != "q") {
 		cout << "Select a program: ";
@@ -66,5 +69,6 @@ int main() {
 		}
 	}
 	return 0;
+
 }
 

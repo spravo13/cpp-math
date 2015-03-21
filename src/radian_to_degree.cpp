@@ -4,7 +4,6 @@
 using namespace std;
 
 void radian_to_degree() {
-
 	float r, d;
 
 	cout << "Number of radians: ";
@@ -13,6 +12,4 @@ void radian_to_degree() {
 	d = r*(180/M_PI);
 
 	cout << d << " degrees \n";
-
 }
-

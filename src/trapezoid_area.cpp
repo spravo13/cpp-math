@@ -4,7 +4,6 @@
 using namespace std;
 
 void trapezoid_area() {
-
 	float h, b1, b2, a;
 
 	cout << "Height measurment: ";
@@ -17,6 +16,4 @@ void trapezoid_area() {
 	a = ((b1 + b2) / 2) * h;
 
 	cout << "Area is: " << a << "\n";
-
 }
-

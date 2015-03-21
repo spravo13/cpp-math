@@ -4,7 +4,6 @@
 using namespace std;
 
 void triangle_area() {
-
 	float b, h ,a;
 
 	cout << "Base length: ";
@@ -15,6 +14,4 @@ void triangle_area() {
 	a = (b * h)/2;
 
 	cout << "Area is: " << a << "\n";
-
 }
-

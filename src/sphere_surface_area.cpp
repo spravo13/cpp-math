@@ -4,7 +4,6 @@
 using namespace std;
 
 void sphere_surface_area() {
-
 	float r, sa;
 
 	cout << "Radius Length: ";
@@ -13,6 +12,4 @@ void sphere_surface_area() {
 	sa = 4 * M_PI * pow(r,2);
 
 	cout << "Surface area is: " << sa << "\n";
-
 }
-

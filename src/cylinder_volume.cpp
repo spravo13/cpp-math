@@ -4,7 +4,6 @@
 using namespace std;
 
 void cylinder_volume() {
-
 	float h, r, v;
 
 	cout << "Height of cylinder: ";
@@ -15,6 +14,4 @@ void cylinder_volume() {
 	v = M_PI * r * r * h;
 
 	cout << "Volume is: " << v << "\n";
-
 }
-

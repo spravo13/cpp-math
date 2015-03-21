@@ -4,7 +4,6 @@
 using namespace std;
 
 void sphere_volume() {
-
 	float r, v;
 
 	cout << "Radius Length: ";
@@ -13,6 +12,4 @@ void sphere_volume() {
 	v = (4/3) * (M_PI * (pow(r,3)));
 
 	cout << "Volume is: " << v << "\n";
-
 }
-

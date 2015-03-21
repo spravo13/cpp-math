@@ -12,7 +12,7 @@ void sector_area() {
 	cout << "Angle measure: ";
 	cin >> a;
 
-	if(a>360 or a<0){
+	if(a>360 or a<0) {
 		cout << "Angle is not possible\n";
 	} else {
 		sa = (M_PI*pow(r,2)) * (a/360);
@@ -20,4 +20,3 @@ void sector_area() {
 		cout << "Sector area: " << sa << "\n";
 	}
 }
-

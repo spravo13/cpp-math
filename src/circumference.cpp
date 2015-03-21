@@ -4,7 +4,6 @@
 using namespace std;
 
 void circumference() {
-
 	float d, c;
 
 	cout << "Diameter Length: ";
@@ -13,6 +12,4 @@ void circumference() {
 	c = M_PI * d;
 
 	cout << "circumference: " << c << "\n";
-
 }
-

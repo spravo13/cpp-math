@@ -4,7 +4,6 @@
 using namespace std;
 
 void degree_to_radian() {
-
 	float d, r, rpi;
 
 	cout << "Degrees: ";
@@ -14,6 +13,4 @@ void degree_to_radian() {
 	rpi = d/180;
 
 	cout << r << " or " << rpi << "π radians\n";
-
 }
-

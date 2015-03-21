@@ -12,7 +12,7 @@ void arc_length() {
 	cout << "Angle measure: ";
 	cin >> a;
 	
-	if(a>360 or a<0){
+	if(a>360 or a<0) {
 		cout << "Angle is not possible\n";
 	} else {
 		l = (M_PI*d) * (a/360);
@@ -20,4 +20,3 @@ void arc_length() {
 	}
 
 }
-

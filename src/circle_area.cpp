@@ -4,7 +4,6 @@
 using namespace std;
 
 void circle_area() {
-
 	float r, a;
 
 	cout << "Radius Length: ";
@@ -13,6 +12,4 @@ void circle_area() {
 	a = r*r*M_PI;
 
 	cout << "Area is: " << a << "\n";
-
 }
-
