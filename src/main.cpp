@@ -1,6 +1,6 @@
 #include <cmath>
 #include <iostream>
-#include "declare.h"
+#include "declare.hpp"
 
 using namespace std;
 
