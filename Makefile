@@ -1,4 +1,4 @@
-CXX = g++-4.7
+CXX = g++-4.9
 STD = c++11
 EXE = cpp-math
 RM = rm -f
